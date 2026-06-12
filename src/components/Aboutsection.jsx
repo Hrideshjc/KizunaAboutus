@@ -39,12 +39,12 @@ const DETAIL_STATS = [
 export default function AboutSection() {
   return (
     <>
-      {/* ───────────────── SECTION 1: INTRO + STATS + LOGOS ───────────────── */}
+      {/*  SECTION 1 */}
       <section className="relative w-full bg-white py-16 sm:py-24" style={ROBOTO}>
         <div className="max-w-7xl mx-auto px-6 sm:px-10 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-            {/* LEFT — image */}
+            {/* LEFT image */}
             <motion.div
               className="relative w-full"
               initial={{ opacity: 0, x: -30 }}
@@ -59,7 +59,7 @@ export default function AboutSection() {
               />
             </motion.div>
 
-            {/* RIGHT — content */}
+            {/* RIGHT content */}
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -150,7 +150,7 @@ export default function AboutSection() {
         </div>
       </section>
 
-      {/* ───────────────── SECTION 2: DETAIL + QUOTES + STATS ───────────────── */}
+      {/* SECTION 2 */}
       <section className="relative w-full bg-white -mt-10 py-14 sm:-mt-12 sm:py-20" style={ROBOTO}>
         <div className="max-w-7xl mx-auto px-6 sm:px-10 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
@@ -162,7 +162,7 @@ export default function AboutSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             >
-              {/* image with video overlay */}
+              {/* image video */}
               <div className="relative w-full mb-6">
                 <img
                   src={consultImage}
@@ -177,7 +177,7 @@ export default function AboutSection() {
                 </button>
               </div>
 
-              {/* quote 1 — bold blue */}
+              {/* quote 1  */}
               <div className="relative pl-5 border-l-3 border-[#0877BA] mb-6">
                 <FaQuoteLeft size={14} className="text-[#0877BA]/30 mb-2" />
                 <p className="text-[#0877BA] text-[17px] sm:text-[19px] font-bold leading-snug">
@@ -185,7 +185,7 @@ export default function AboutSection() {
                 </p>
               </div>
 
-              {/* quote 2 — bold blue */}
+              {/* quote 2  */}
               <div className="relative pl-5 border-l-3 border-[#0877BA] mb-6">
                 <FaQuoteLeft size={14} className="text-[#0877BA]/30 mb-2" />
                 <p className="text-[#0877BA] text-[17px] sm:text-[19px] font-bold leading-snug">

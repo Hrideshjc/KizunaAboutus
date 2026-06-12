@@ -53,7 +53,7 @@ export default function GrowSection() {
         </motion.div>
       </div>
 
-      {/* people row — bottom edge */}
+      {/* people row */}
       <motion.div
         className="relative z-10 w-full mt-8 sm:mt-12"
         initial={{ opacity: 0, y: 30 }}

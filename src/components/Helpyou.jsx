@@ -62,7 +62,7 @@ export default function HelpYou() {
   return (
     <section className="relative w-full overflow-hidden" style={ROBOTO}>
 
-      {/* ───────────────── SUB-SECTION 1: FLOATING AVATARS + CENTER STAT ───────────────── */}
+      {/* SUB-SECTION 1 */}
       <div
         className="relative w-full min-h-[420px] sm:min-h-[520px] flex items-center justify-center pt-16 sm:pt-20"
         style={{
@@ -101,7 +101,7 @@ export default function HelpYou() {
           </p>
         </motion.div>
 
-        {/* bottom avatar — half in, half out of container */}
+        {/* bottom avatar */}
         <motion.div
           className="absolute -bottom-12 sm:-bottom-16 left-0 right-0 mx-auto w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden shadow-2xl ring-4 ring-white z-20"
           animate={{ scale: [1, 1.05, 1] }}
@@ -111,7 +111,7 @@ export default function HelpYou() {
         </motion.div>
       </div>
 
-      {/* ───────────────── SUB-SECTION 2: WE PROMOTE YOUR BUSINESS → SERVICES ───────────────── */}
+      {/* SUB-SECTION 2 */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-10 xl:px-16 pt-24 sm:pt-32 pb-16 sm:pb-20">
 
         {/* sakura petals */}
@@ -195,7 +195,7 @@ export default function HelpYou() {
         </div>
       </div>
 
-      {/* ───────────────── SUB-SECTION 3: STATS BAR ───────────────── */}
+      {/* SUB-SECTION 3 */}
       <motion.div
         className="relative z-10 bg-[#0877BA] py-12 sm:py-16"
         initial={{ opacity: 0, y: 20 }}

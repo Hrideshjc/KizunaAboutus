@@ -45,9 +45,9 @@ function TeamCard({ member, index }) {
 
       {/* info block with expanding blue border */}
       <div className="relative px-6 py-6">
-        {/* expanding blue fill — starts as left border, grows to cover */}
+        
         <span className="absolute inset-0 bg-[#0877BA] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500 ease-[cubic-bezier(0.65,0,0.35,1)]" />
-        {/* static thin left border, visible when not hovered */}
+        
         <span className="absolute left-0 top-0 h-full w-[4px] bg-[#0877BA] group-hover:opacity-0 transition-opacity duration-300" />
 
         <div className="relative z-10">

@@ -41,7 +41,7 @@ export default function NewsletterSection() {
             />
           </motion.div>
 
-          {/* RIGHT — content */}
+          {/* RIGHT content */}
           <motion.div
             className="flex-1 text-center lg:text-left"
             initial={{ opacity: 0, y: 20 }}

@@ -20,17 +20,6 @@ export default function AboutHero() {
     >
       
 
-      {/* halftone dot pattern - bottom left */}
-      <div
-        className="absolute left-0 bottom-0 w-1/3 h-full opacity-[0.15] pointer-events-none"
-        style={{
-          backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1.5px)',
-          backgroundSize: '14px 14px',
-          maskImage: 'radial-gradient(circle at bottom left, black 0%, transparent 70%)',
-          WebkitMaskImage: 'radial-gradient(circle at bottom left, black 0%, transparent 70%)',
-        }}
-      />
-
       {/* Sakura petals */}
       {[
         { left: '8%',  delay: 0   },
